@@ -25,4 +25,4 @@ class LoginPage():
         self.driver.find_element_by_xpath(self.button_login_xpath).click()
 
     def clickLogout(self):
-        self.driver.find_element_by_xpath(self.button_logout_xpath).click()
+        self.driver.find_element_by_xpath(self.link_logout_linktext).click()
